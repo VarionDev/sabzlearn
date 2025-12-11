@@ -1,0 +1,51 @@
+@font-face {
+  font-family: dana;
+  src: url(font/Dana-Medium.ttf) format("truetype");
+}
+header .backgrund img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header nav {
+  font-family: "dana";
+}
+header nav .logo svg {
+  height: 50px;
+  float: right;
+  margin-top: 24%;
+}
+header nav ul {
+  float: right;
+}
+header nav ul #empity {
+  width: 300px;
+}
+header nav ul #login {
+  background-color: #1eb35b;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+header nav ul #login a {
+  font-size: 16px;
+}
+header nav ul #login a img {
+  margin-left: 10px;
+  width: 19px;
+}
+header nav ul li {
+  list-style: none;
+  margin-top: 2%;
+  margin-right: 25px;
+  font-size: 16px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+header nav ul li svg {
+  font-size: 20px;
+}
+header nav ul li img {
+  width: 25px;
+}/*# sourceMappingURL=style.css.map */

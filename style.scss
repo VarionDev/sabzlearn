@@ -1,0 +1,82 @@
+@font-face {
+    font-family: dana;
+    src: url(font/Dana-Medium.ttf) format("truetype");
+}
+
+
+header {
+    .backgrund {
+
+        img{
+            object-fit: cover;
+        }
+    }
+
+    nav {
+        font-family: "dana";
+        
+
+        .logo{
+            svg {
+
+                    height: 50px;
+
+
+                    float: right;
+                    margin-top: 24%;
+                    
+                }
+        }
+
+
+        ul {
+            float: right;
+
+            
+            
+            #empity{
+                width: 300px;
+            }
+            #login{
+                background-color: #1eb35b;
+                padding: 10px;
+                border-radius: 10px;
+                padding-left: 10px;
+               
+                a{
+                     font-size: 16px;
+                    img{
+                        margin-left: 10px;
+                        width: 19px;
+                        
+                    }
+                }
+            }
+
+            li {
+                list-style: none;
+                margin-top: 2%;
+                
+                margin-right: 25px;
+                font-size: 16px;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+
+                svg {
+                    font-size: 20px;
+                }
+                img{
+                    width: 25px;
+                }
+
+            }
+
+
+
+
+        }
+    }
+}
