@@ -1,38 +1,40 @@
-header {
-  background-image: url(picture/hero-section.webp);
+.backgrund header {
+  background-image: url("../picture/hero-section.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 840px;
 }
-header nav div {
-  padding: 10px;
+.backgrund .nav-link {
+  color: #fff !important;
 }
-header nav div ul li {
-  width: 100%;
-  margin: 0 10px;
+.backgrund ul.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-header nav div ul li .butten {
-  background-color: #1eb35b;
-  padding: 10px;
-  border-radius: 10px;
-}
-header nav div ul li .butten img {
-  width: 5%;
-}
-header nav div ul li .empity {
-  width: 216px;
-}
-header nav div ul li .icon {
-  width: 24px;
-}
-header nav div ul li .icon-svg {
-  width: 24px;
-}
-header nav div ul li a {
-  text-decoration: none;
+.backgrund ul.navbar-nav li a {
   color: #fff;
 }
-header a {
-  width: 5%;
+.backgrund ul.navbar-nav li a.moon img {
+  width: 24px;
+  height: auto;
 }
-header a svg {
-  width: 100%;
+.backgrund ul.navbar-nav li a.shop img {
+  width: 24px;
+  height: auto;
+}
+.backgrund ul.navbar-nav li a.dokme {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #1eb35b;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.backgrund ul.navbar-nav li a.dokme img {
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */

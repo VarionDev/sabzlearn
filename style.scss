@@ -1,52 +1,52 @@
-header {
-    background-image: url(picture/hero-section.webp);
-    height: 840px;
+.backgrund {
+    header {
+        background-image: url('../picture/hero-section.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 840px;
+    }
 
-    nav {
-        div {
-            padding: 10px;
+    .nav-link {
+        color: #fff !important;}
 
-            ul{
-                
-                li {
-                width: 100%;
-                margin: 0 10px; 
-                .butten{
-                    background-color: #1eb35b;
-                    padding: 10px;
-                    border-radius: 10px;
-                    img{
-                        width: 5%;
+        // استایل برای لیست آیکون‌ها
+        ul.navbar-nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            li {
+                a {
+                    color: #fff;
+
+                    &.moon img {
+                        width: 24px;
+                        height: auto;
+                    }
+
+                    &.shop img {
+                        width: 24px;
+                        height: auto;
+                    }
+
+                    &.dokme {
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 8px;
+                        background-color: #1eb35b;
+                        padding: 8px 16px;
+                        border-radius: 10px;
+                        color: #fff;
+                        text-decoration: none;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
                     }
                 }
-                .empity{
-                    width: 216px;
-                }
-                .icon{
-                    width: 24px;
-                    
-                }
-                .icon-svg{
-                    width: 24px;
-                }
-
-                a {
-                    text-decoration: none;
-                    color: #fff
-                }
-            }
             }
         }
-
-        ;
+        
     }
-
-    a {
-        width: 5%;
-
-        svg {
-
-            width: 100%;
-        }
-    }
-}
