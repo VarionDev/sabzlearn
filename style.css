@@ -1,51 +1,38 @@
-@font-face {
-  font-family: dana;
-  src: url(font/Dana-Medium.ttf) format("truetype");
+header {
+  background-image: url(picture/hero-section.webp);
+  height: 840px;
 }
-header .backgrund img {
-  -o-object-fit: cover;
-     object-fit: cover;
+header nav div {
+  padding: 10px;
 }
-header nav {
-  font-family: "dana";
+header nav div ul li {
+  width: 100%;
+  margin: 0 10px;
 }
-header nav .logo svg {
-  height: 50px;
-  float: right;
-  margin-top: 24%;
-}
-header nav ul {
-  float: right;
-}
-header nav ul #empity {
-  width: 300px;
-}
-header nav ul #login {
+header nav div ul li .butten {
   background-color: #1eb35b;
   padding: 10px;
   border-radius: 10px;
-  padding-left: 10px;
 }
-header nav ul #login a {
-  font-size: 16px;
+header nav div ul li .butten img {
+  width: 5%;
 }
-header nav ul #login a img {
-  margin-left: 10px;
-  width: 19px;
+header nav div ul li .empity {
+  width: 216px;
 }
-header nav ul li {
-  list-style: none;
-  margin-top: 2%;
-  margin-right: 25px;
-  font-size: 16px;
+header nav div ul li .icon {
+  width: 24px;
 }
-header nav ul li a {
+header nav div ul li .icon-svg {
+  width: 24px;
+}
+header nav div ul li a {
   text-decoration: none;
   color: #fff;
 }
-header nav ul li svg {
-  font-size: 20px;
+header a {
+  width: 5%;
 }
-header nav ul li img {
-  width: 25px;
+header a svg {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

@@ -1,82 +1,52 @@
-@font-face {
-    font-family: dana;
-    src: url(font/Dana-Medium.ttf) format("truetype");
-}
-
-
 header {
-    .backgrund {
-
-        img{
-            object-fit: cover;
-        }
-    }
+    background-image: url(picture/hero-section.webp);
+    height: 840px;
 
     nav {
-        font-family: "dana";
-        
+        div {
+            padding: 10px;
 
-        .logo{
-            svg {
-
-                    height: 50px;
-
-
-                    float: right;
-                    margin-top: 24%;
-                    
-                }
-        }
-
-
-        ul {
-            float: right;
-
-            
-            
-            #empity{
-                width: 300px;
-            }
-            #login{
-                background-color: #1eb35b;
-                padding: 10px;
-                border-radius: 10px;
-                padding-left: 10px;
-               
-                a{
-                     font-size: 16px;
+            ul{
+                
+                li {
+                width: 100%;
+                margin: 0 10px; 
+                .butten{
+                    background-color: #1eb35b;
+                    padding: 10px;
+                    border-radius: 10px;
                     img{
-                        margin-left: 10px;
-                        width: 19px;
-                        
+                        width: 5%;
                     }
                 }
-            }
-
-            li {
-                list-style: none;
-                margin-top: 2%;
-                
-                margin-right: 25px;
-                font-size: 16px;
+                .empity{
+                    width: 216px;
+                }
+                .icon{
+                    width: 24px;
+                    
+                }
+                .icon-svg{
+                    width: 24px;
+                }
 
                 a {
                     text-decoration: none;
-                    color: #fff;
+                    color: #fff
                 }
-
-                svg {
-                    font-size: 20px;
-                }
-                img{
-                    width: 25px;
-                }
-
             }
+            }
+        }
 
+        ;
+    }
 
+    a {
+        width: 5%;
 
+        svg {
 
+            width: 100%;
         }
     }
 }
