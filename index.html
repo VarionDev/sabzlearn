@@ -7,13 +7,14 @@
     <title>Navbar Example</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawasome/css/all.min.css">
 </head>
 
 <body>
     <div class="backgrund">
         <header>
             <nav class="navbar navbar-expand-lg ">
-                <div class="container">
+                <div class="container px-5 py-3">
                     <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg"
                             class="absolute right-0 left-0 mx-auto md:static h-11 md:h-10 lg:h-14 shrink-0"
                             viewBox="0 0 1020 769" width="60px">
@@ -70,6 +71,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">مقالات</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">مشاوره برنامه نویسی</a>
+                            </li>
 
                         </ul>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -79,11 +83,13 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active shop" href="#"><img src="picture/shopping-bag-svgrepo-com.svg" alt=""></a>
+                                <a class="nav-link active shop" href="#"><img src="picture/shopping-bag-svgrepo-com.svg"
+                                        alt=""></a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active dokme" href="#"><img src="picture/user-svgrepo-com.svg" alt="">
+                                <a class="nav-link active dokme" href="#"><img src="picture/user-svgrepo-com.svg"
+                                        alt="">
                                     ورود|عضویت</a>
                             </li>
                         </ul>
@@ -91,11 +97,87 @@
                     </div>
                 </div>
             </nav>
+
+
+
+
+            <div class=" container text  text-center  ">
+                <h1 class="text-center  text-white">
+                    سبزلرن، اولین گام برنامه‌نویس شدن
+                </h1>
+                <p class="text-white ">با آکادمی خصوصی سبزلرن، علم برنامه
+                    نویسی رو با خیال راحت یاد بگیر و پیشرفت کن
+                </p>
+            </div>
+
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <div class="search-container d-flex align-items-center">
+                            <input type="text" class="form-control search-input" placeholder="جستجو بین دوره ها...">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container col-3 d-flex info justify-content-center align-items-center ">
+                <div class="watch  text-center">
+                    <img src="picture/clock-min.webp" alt="">
+                    <p class="text-white">۱۶۸۵</p>
+                    <p class="text-white paragraph">ساعت آموزش</p>
+
+                </div>
+                <div class="book  text-center">
+                    <img src="picture/book-min.webp" alt="">
+                    <p class="text-white">۸۹</p>
+                    <p class="text-white paragraph">دوره آموزشی</p>
+
+                </div>
+                <div class="conver  text-center">
+                    <img src="picture/conversation-min.webp" alt="">
+                    <p class="text-white">۱۹۱۴۶۱</p>
+                    <p class="text-white paragraph">دانشجو </p>
+
+                </div>
+
+
+
+            </div>
+            <div class="finish-header position-relative text-center">
+                <!-- موج پایین -->
+                <svg class="d-none d-lg-inline-block position-absolute start-0 end-0 bottom-0 mx-auto text-white"
+                    width="100" height="22" viewBox="0 0 100 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 0C69 0 81 22 100 22L0 22C18.75 22 31 0 50 0Z" fill="currentColor"></path>
+                </svg>
+
+                <!-- آیکون چِورون -->
+                <svg style="display:none;">
+                    <symbol id="chevron-down" viewBox="0 0 16 16">
+                        <path d="M1.5 5l6.5 6 6.5-6h-13z" />
+                    </symbol>
+                </svg>
+                <svg class="d-none  d-lg-inline-block position-absolute start-0 end-0 translate-middle-x text-white"
+                    style="bottom:-10px;" width="24" height="24" fill="currentColor">
+                    <use href="#chevron-down"> </use>
+                </svg>
+                <i class="fa-solid fa-angle-down red-text"></i>
+
+            </div>
+
+
+
         </header>
 
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="fontawasome/js/all.min.js"></script>
+    <script src="script.js"></script>
+    <script src="jquery.min.js"></script>
 </body>
 
 </html>

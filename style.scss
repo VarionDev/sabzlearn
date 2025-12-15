@@ -1,52 +1,141 @@
+@font-face {
+    font-family: dana-bold;
+    src: url(font/Dana-ExtraBold.ttf);
+}
+@font-face {
+    font-family: dana;
+    src: url(font/Dana.ttf);
+}
+@font-face {
+    font-family: dana-demiBold;
+    src: url(font/Dana-DemiBold.ttf);
+}
+@font-face {
+    font-family: dana-boldblack;
+    src: url(font/Dana-ExtraBlack.ttf);
+}
+*{
+    font-family: dana;
+}
 .backgrund {
     header {
         background-image: url('../picture/hero-section.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 840px;
+        height: 800px;
+
+        .text {
+            margin-bottom: 50px;
+
+
+            h1 {
+                font-family: dana-bold;
+                margin-top: 50px;
+                font-size: 34px;
+            }
+
+            p {
+                margin-top: 35px !important;
+                font-family: dana-demiBold;
+            }
+        }
     }
 
     .nav-link {
-        color: #fff !important;}
+        color: #fff !important;
+    }
 
-        // استایل برای لیست آیکون‌ها
-        ul.navbar-nav {
-            display: flex;
-            align-items: center;
-            gap: 20px;
+    // استایل برای لیست آیکون‌ها
+    ul.navbar-nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
 
-            li {
-                a {
+        li {
+            a {
+                color: #fff;
+
+                &.moon img {
+                    width: 24px;
+                    height: auto;
+                }
+
+                &.shop img {
+                    width: 24px;
+                    height: auto;
+                }
+
+                &.dokme {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                    background-color: #1eb35b;
+                    padding: 8px 16px;
+                    border-radius: 10px;
                     color: #fff;
+                    text-decoration: none;
 
-                    &.moon img {
-                        width: 24px;
-                        height: auto;
-                    }
-
-                    &.shop img {
-                        width: 24px;
-                        height: auto;
-                    }
-
-                    &.dokme {
-                        display: inline-flex;
-                        align-items: center;
-                        gap: 8px;
-                        background-color: #1eb35b;
-                        padding: 8px 16px;
-                        border-radius: 10px;
-                        color: #fff;
-                        text-decoration: none;
-
-                        img {
-                            width: 20px;
-                            height: 20px;
-                        }
+                    img {
+                        width: 20px;
+                        height: 20px;
                     }
                 }
             }
         }
-        
     }
+
+    .search-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .search-input {
+        height: 70px;
+        width: 100%;
+        border-radius: 30px;
+        padding-left: 20px;
+        border: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-icon {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        color: #fff;
+        background-color: #1eb35b;
+        padding: 15px;
+        border-radius: 50%;
+    }
+
+    .info {
+        margin-top: 30px;
+        gap: 126px;
+        width: 40%;
+
+        .watch,
+        .book,
+        .conver {
+            font-size: 30px;
+            p{
+                font-family: dana-boldblack;
+            }
+
+            img {
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+
+        .paragraph {
+            font-size: 18px;
+            font-family: dana-bold !important;
+        }
+    }
+
+    .finish-header {
+        margin-top: 183px;
+    }
+}
